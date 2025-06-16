@@ -44,7 +44,7 @@ An interactive real estate visualizer that lets users explore towers, view indiv
 
 ```bash
 # Clone the project
-git clone [https://github.com/your-username/floor-selector.git](https://github.com/Elvicharde/mini-floor-selector-app.git)
+git clone https://github.com/Elvicharde/mini-floor-selector-app.git
 cd floor-selector
 
 # Install dependencies
