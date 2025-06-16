@@ -1,0 +1,24 @@
+<svg width="600" height="338" viewBox="0 0 600 338" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="600" height="338" rx="12" fill="#F8FAFC" />
+
+  <!-- Apartment Frame -->
+  <rect x="60" y="50" width="480" height="220" rx="8" stroke="#CBD5E1" stroke-width="2" fill="#F1F5F9" />
+
+  <!-- Room blocks -->
+  <rect x="70" y="60" width="160" height="80" fill="#E2E8F0" rx="4" />
+  <rect x="240" y="60" width="130" height="60" fill="#CBD5E1" rx="4" />
+  <rect x="380" y="60" width="150" height="80" fill="#E2E8F0" rx="4" />
+  <rect x="70" y="150" width="120" height="100" fill="#CBD5E1" rx="4" />
+  <rect x="200" y="150" width="330" height="100" fill="#E2E8F0" rx="4" />
+
+  <!-- Divider walls -->
+  <line x1="240" y1="60" x2="240" y2="140" stroke="#E4E4E7" stroke-width="4" />
+  <line x1="380" y1="60" x2="380" y2="140" stroke="#E4E4E7" stroke-width="4" />
+  <line x1="190" y1="150" x2="190" y2="250" stroke="#E4E4E7" stroke-width="4" />
+
+  <!-- Fallback label -->
+  <text x="50%" y="315" text-anchor="middle" fill="#94A3B8"
+    font-family="Inter, sans-serif" font-size="16" font-weight="500">
+    Apartment Layout Not Available
+  </text>
+</svg>

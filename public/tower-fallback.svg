@@ -1,0 +1,24 @@
+<svg width="600" height="338" viewBox="0 0 600 338" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="600" height="338" rx="12" fill="#F1F5F9"/>
+  
+  <!-- Building base -->
+  <rect x="200" y="100" width="80" height="180" rx="4" fill="#CBD5E1"/>
+  <rect x="300" y="60" width="100" height="220" rx="6" fill="#94A3B8"/>
+  <rect x="420" y="130" width="60" height="150" rx="4" fill="#E2E8F0"/>
+
+  <!-- Windows -->
+  <g fill="#F8FAFC">
+    <rect x="310" y="80" width="10" height="10"/>
+    <rect x="330" y="80" width="10" height="10"/>
+    <rect x="310" y="100" width="10" height="10"/>
+    <rect x="330" y="100" width="10" height="10"/>
+    <rect x="310" y="120" width="10" height="10"/>
+    <rect x="330" y="120" width="10" height="10"/>
+  </g>
+
+  <!-- Text label -->
+  <text x="50%" y="320" text-anchor="middle" fill="#64748B"
+    font-family="Inter, sans-serif" font-size="20" font-weight="500">
+    Tower Image Not Available
+  </text>
+</svg>
