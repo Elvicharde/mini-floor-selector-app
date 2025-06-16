@@ -40,17 +40,6 @@ An interactive real estate visualizer that lets users explore towers, view indiv
 
 ---
 
-## 📦 Project Structure
-src/
-├── components/ // Shared UI
-├── pages/ // Routes (Home, Floor, Layout, etc.)
-├── data/ // Static floor/tower data
-├── lib/ // Hooks, color utils, description generators
-├── types/ // TypeScript interfaces
-
-
----
-
 ## 🧪 Getting Started
 
 ```bash
