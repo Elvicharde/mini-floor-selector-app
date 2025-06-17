@@ -7,14 +7,15 @@ import { Link } from "react-router-dom";
 const MainLayout = () => {
   const { theme } = useTheme();
   const logoType = theme.mode === "Dark" ? "logo-white" : "logo";
-  const logoBorderColor = theme.mode === "Dark" ? "border-white" : "border-[#252F8D]";
+  const logoBorderColor =
+    theme.mode === "Dark" ? "border-white" : "border-[#252F8D]";
   const location = useLocation();
   const pathArray = location.pathname.split("/");
   const navigate = useNavigate();
 
   return (
     <div
-      className={`group min-h-screen ${theme.background} px-4 py-6 !pb-[120px] flex flex-col`}
+      className={`group/main-layout min-h-screen ${theme.background} px-4 py-6 !pb-[120px] flex flex-col`}
     >
       <header className="mb-12 text-center text-2xl font-bold text-primary w-fit">
         <Link to={"/home"} replace>
